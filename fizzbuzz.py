@@ -22,3 +22,4 @@ print('\n'.join('FizzBuzz' if i%3==0 and i%5==0 else 'Fizz' if i%3==0 else 'Buzz
 [print((i%3<1)*'Fizz'+(i%5<1)*'Buzz' or i) for i in range(1, 101)]
 #Уходим в отрыв. Модифицируем окончательный вариант
 [print(i%3//2*'Fizz'+i%5//4*'Buzz' or i+1) for i in range(100)]
+#самым быстро решаемым является стандартное решение с 2.43 секундой
