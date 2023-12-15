@@ -35,3 +35,4 @@ else:
 st = 'a'
 if st == 'a' or st == 'b' or st == 'c' or st == 'd':
      print('YES')
+    .
